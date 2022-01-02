@@ -1,0 +1,22 @@
+{
+  "name": "uni-resolver-driver-did-ada",
+  "version": "1.0.0",
+  "description": "Sidetree-Cardano Universal Resolver Driver",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "connect": "3.2.0",
+    "express-validator": "5.3.1",
+    "js-yaml": "3.3.0",
+    "oas3-tools": "2.0.2",
+    "request": "^2.88.2"
+  }
+}

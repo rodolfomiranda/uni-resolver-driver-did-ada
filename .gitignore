@@ -1,0 +1,13 @@
+node_modules/
+bower_components/
+dist/
+output/
+package-lock.json
+.project
+/.settings/
+*.lock
+*.log
+/.idea/
+*.iml
+.DS_Store
+.vscode
