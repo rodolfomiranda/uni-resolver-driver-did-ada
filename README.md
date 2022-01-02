@@ -1,8 +1,10 @@
 ![DIF Logo](https://raw.githubusercontent.com/decentralized-identity/universal-resolver/master/docs/logo-dif.png)
 
-# Universal Resolver Driver: example
+# Universal Resolver Driver for Sidetree-Cardano did:ada method
 
 This is a [Universal Resolver](https://github.com/decentralized-identity/universal-resolver/) driver for [Sidetree-Cardano](https://github.com/rodolfomiranda/sidetree-cardano) **did:ada** identifiers.
+
+Since this driver is not yet published into Decentralized Identity Foundation repository, you can use our forked [Universal Resolver](https://github.com/rodolfomiranda/universal-resolver) that deploys all official driver plus this one. 
 
 ## Specifications
 

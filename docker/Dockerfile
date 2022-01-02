@@ -11,7 +11,7 @@ COPY . .
 
 # variables
 
-ENV sidetree_cardano_node_url='https://mnwbfd1eg2.execute-api.us-east-1.amazonaws.com/cardano'
+ENV sidetree_cardano_node_url='https://testnet.sidetree-cardano.com'
 
 # done
 
