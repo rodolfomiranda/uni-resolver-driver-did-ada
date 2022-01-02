@@ -19,8 +19,15 @@ did:ada:EiDfLfmqWKLEgbALdWg2jj3m8LFbfFSwPdee6JvFE5VfTQ
 ## Build and Run (Docker)
 
 ```
-docker build -f ./docker/Dockerfile . -t exampleorg/uni-resolver-driver-did-example
-docker run -p 8080:8080 exampleorg/uni-resolver-driver-did-example
+docker build -f ./docker/Dockerfile . -t rodopincha/uni-resolver-driver-did-ada
+docker run -p 8080:8080 rodopincha/uni-resolver-driver-did-ada
+curl -X GET http://localhost:8080/1.0/identifiers/did:ada:EiDfLfmqWKLEgbALdWg2jj3m8LFbfFSwPdee6JvFE5VfTQ
+```
+
+## Pull from DockerHub
+```
+docker pull rodopincha/uni-resolver-driver-did-ada
+docker run -p 8080:8080 rodopincha/uni-resolver-driver-did-ada
 curl -X GET http://localhost:8080/1.0/identifiers/did:ada:EiDfLfmqWKLEgbALdWg2jj3m8LFbfFSwPdee6JvFE5VfTQ
 ```
 
@@ -33,11 +40,9 @@ npm start
 ## Driver Environment Variables
 
 The driver recognizes the following environment variable:
+ `uniresolver_driver_did_ada_network`
 
-### `uniresolver_driver_did_ada_network`
-
- * Values: testnet | mainnet
- * Default value: testnet
+ * Default value: `'https://testnet.sidetree-cardano.com'`
 
 ## Driver Metadata
 
