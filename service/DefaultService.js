@@ -11,7 +11,7 @@ const request = require('request');
  **/
 exports.resolve = function(identifier,accept) {
   return new Promise(function(resolve, reject) {
-    const nodeURL = process.env.sidetree_cardano_node_url ? process.env.sidetree_cardano_node_url : 'https://testnet.sidetree-cardano.com'; 
+    const nodeURL = process.env.uniresolver_driver_did_ada_node_url ? process.env.uniresolver_driver_did_ada_node_url : 'https://testnet.sidetree-cardano.com'; 
     
     request(nodeURL + '/identifiers/' + identifier, function (error, response, body) {
       if (error || JSON.parse(body).code )  {

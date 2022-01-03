@@ -11,7 +11,7 @@ COPY . .
 
 # variables
 
-ENV sidetree_cardano_node_url='https://testnet.sidetree-cardano.com'
+ENV uniresolver_driver_did_ada_node_url='https://testnet.sidetree-cardano.com'
 
 # done
 

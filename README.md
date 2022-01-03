@@ -42,7 +42,7 @@ npm start
 ## Driver Environment Variables
 
 The driver recognizes the following environment variable:
- `uniresolver_driver_did_ada_network`
+ `uniresolver_driver_did_ada_node_url`
 
  * Default value: `'https://testnet.sidetree-cardano.com'`
 
